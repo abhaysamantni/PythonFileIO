@@ -1,0 +1,8 @@
+s = open('studentnames.txt', 'r')
+print(s.readline().rstrip('\n'))
+print(s.readline().rstrip('\n'))
+print(s.readline().rstrip('\n'))
+print(s.readline().rstrip('\n'))
+print(s.readline().rstrip('\n'))
+print(s.readline().rstrip('\n'))
+s.close()
